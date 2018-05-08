@@ -18,6 +18,11 @@ p {
   line-height: 1.2;
 }
 
+article p {
+  font-size: 35px;
+  padding: 20px;
+
+}
 
 
 /* Nav Bar */
@@ -115,6 +120,13 @@ div.box {
   padding: 10px;
 }
 
+div.slopeicon img {
+  display: block;
+  margin: auto;
+  box-shadow: -2px -2px 20px 2px rgba(0,0,0,.15), 2px 2px 17px 2px rgba(0,0,0,1);
+
+}
+
 button.learnmore {
   display: block;
   margin: auto;
@@ -204,7 +216,12 @@ input[type="text"] {
   h1.section2header {
     font-size: 50px;
   }
-  .col-6, .col-4 {
+article p {
+  font-size: 25px;
+
+}
+
+  .col-6, .col-4, .col-7, .col-5 {
     width:100%;
     margin: 0;
   }
@@ -213,6 +230,14 @@ input[type="text"] {
     padding: 5px;
     display: block;
   }
+
+  div.slopeicon {
+    margin: 10px;
+  }
+  div.slopeicon img {
+    width: 100%;
+  }
+
 
   div.leftside-col,
   div.rightside-col {
